@@ -1,0 +1,363 @@
+local Blacklib = loadstring(game:HttpGet("https://raw.githubusercontent.com/Brineeee/EastHub/main/BlackFEYEYY"))()
+local Win = Blacklib:Window("Legends Of Speed")
+
+-------/-------/-------/-------/-------/-------/-------/-------/-------/-------/-------/-------/-------/-------/-------/
+local Tab1Section = Win:Tab("Ultra", img)
+local Tab1 = Tab1Section:NewSection("-- Ultra Farm --")
+-------/-------/-------/-------/-------/-------/-------/-------/-------/-------/-------/-------/-------/-------/-------/
+
+-------/-------/-------/-------/-------/-------/-------/-------/-------/-------/-------/-------/-------/-------/-------/
+local Tab2Section = Win:Tab("Eggs", img)
+local Tab2 = Tab2Section:NewSection("-- Eggs --")
+-------/-------/-------/-------/-------/-------/-------/-------/-------/-------/-------/-------/-------/-------/-------/
+
+-------/-------/-------/-------/-------/-------/-------/-------/-------/-------/-------/-------/-------/-------/-------/
+local Tab3Section = Win:Tab("Misc", img)
+local Tab3 = Tab3Section:NewSection("-- Misc --")
+-------/-------/-------/-------/-------/-------/-------/-------/-------/-------/-------/-------/-------/-------/-------/
+
+Tab1:Button("Collect Orbs - 1000", function() 
+for i=1,1000 do
+local tbl_main = 
+{
+      "collectOrb", 
+      "Red Orb", 
+      "City"
+}
+game:GetService("ReplicatedStorage").rEvents.orbEvent:FireServer(unpack(tbl_main))
+
+local tbl_main = 
+{
+      "collectOrb", 
+      "Yellow Orb", 
+      "City"
+}
+game:GetService("ReplicatedStorage").rEvents.orbEvent:FireServer(unpack(tbl_main))
+
+local tbl_main = 
+{
+      "collectOrb", 
+      "Gem", 
+      "City"
+}
+game:GetService("ReplicatedStorage").rEvents.orbEvent:FireServer(unpack(tbl_main))
+
+local tbl_main = 
+{
+      "collectOrb", 
+      "Orange Orb", 
+      "City"
+}
+game:GetService("ReplicatedStorage").rEvents.orbEvent:FireServer(unpack(tbl_main))
+
+local tbl_main = 
+{
+      "rebirthRequest"
+}
+game:GetService("ReplicatedStorage").rEvents.rebirthEvent:FireServer(unpack(tbl_main))
+end
+end) 
+
+Tab1:Button("Collect Orbs - 2000", function() 
+for i=1,2000 do
+local tbl_main = 
+{
+      "collectOrb", 
+      "Red Orb", 
+      "City"
+}
+game:GetService("ReplicatedStorage").rEvents.orbEvent:FireServer(unpack(tbl_main))
+
+local tbl_main = 
+{
+      "collectOrb", 
+      "Yellow Orb", 
+      "City"
+}
+game:GetService("ReplicatedStorage").rEvents.orbEvent:FireServer(unpack(tbl_main))
+
+local tbl_main = 
+{
+      "collectOrb", 
+      "Gem", 
+      "City"
+}
+game:GetService("ReplicatedStorage").rEvents.orbEvent:FireServer(unpack(tbl_main))
+
+local tbl_main = 
+{
+      "collectOrb", 
+      "Orange Orb", 
+      "City"
+}
+game:GetService("ReplicatedStorage").rEvents.orbEvent:FireServer(unpack(tbl_main))
+
+local tbl_main = 
+{
+      "rebirthRequest"
+}
+game:GetService("ReplicatedStorage").rEvents.rebirthEvent:FireServer(unpack(tbl_main))
+end
+end) 
+
+Tab1:Button("Collect Orbs - 3000", function() 
+for i=1,3000 do
+local tbl_main = 
+{
+      "collectOrb", 
+      "Red Orb", 
+      "City"
+}
+game:GetService("ReplicatedStorage").rEvents.orbEvent:FireServer(unpack(tbl_main))
+
+local tbl_main = 
+{
+      "collectOrb", 
+      "Yellow Orb", 
+      "City"
+}
+game:GetService("ReplicatedStorage").rEvents.orbEvent:FireServer(unpack(tbl_main))
+
+local tbl_main = 
+{
+      "collectOrb", 
+      "Gem", 
+      "City"
+}
+game:GetService("ReplicatedStorage").rEvents.orbEvent:FireServer(unpack(tbl_main))
+
+local tbl_main = 
+{
+      "collectOrb", 
+      "Orange Orb", 
+      "City"
+}
+game:GetService("ReplicatedStorage").rEvents.orbEvent:FireServer(unpack(tbl_main))
+
+local tbl_main = 
+{
+      "rebirthRequest"
+}
+game:GetService("ReplicatedStorage").rEvents.rebirthEvent:FireServer(unpack(tbl_main))
+end
+end) 
+
+Tab1:Button("Collect Orbs - 4000", function() 
+for i=1,4000 do
+local tbl_main = 
+{
+      "collectOrb", 
+      "Red Orb", 
+      "City"
+}
+game:GetService("ReplicatedStorage").rEvents.orbEvent:FireServer(unpack(tbl_main))
+
+local tbl_main = 
+{
+      "collectOrb", 
+      "Yellow Orb", 
+      "City"
+}
+game:GetService("ReplicatedStorage").rEvents.orbEvent:FireServer(unpack(tbl_main))
+
+local tbl_main = 
+{
+      "collectOrb", 
+      "Gem", 
+      "City"
+}
+game:GetService("ReplicatedStorage").rEvents.orbEvent:FireServer(unpack(tbl_main))
+
+local tbl_main = 
+{
+      "collectOrb", 
+      "Orange Orb", 
+      "City"
+}
+game:GetService("ReplicatedStorage").rEvents.orbEvent:FireServer(unpack(tbl_main))
+
+local tbl_main = 
+{
+      "rebirthRequest"
+}
+game:GetService("ReplicatedStorage").rEvents.rebirthEvent:FireServer(unpack(tbl_main))
+end
+end) 
+
+Tab1:Button("Collect Orbs - 5000", function() 
+for i=1,5000 do
+local tbl_main = 
+{
+      "collectOrb", 
+      "Red Orb", 
+      "City"
+}
+game:GetService("ReplicatedStorage").rEvents.orbEvent:FireServer(unpack(tbl_main))
+
+local tbl_main = 
+{
+      "collectOrb", 
+      "Yellow Orb", 
+      "City"
+}
+game:GetService("ReplicatedStorage").rEvents.orbEvent:FireServer(unpack(tbl_main))
+
+local tbl_main = 
+{
+      "collectOrb", 
+      "Gem", 
+      "City"
+}
+game:GetService("ReplicatedStorage").rEvents.orbEvent:FireServer(unpack(tbl_main))
+
+local tbl_main = 
+{
+      "collectOrb", 
+      "Orange Orb", 
+      "City"
+}
+game:GetService("ReplicatedStorage").rEvents.orbEvent:FireServer(unpack(tbl_main))
+
+local tbl_main = 
+{
+      "rebirthRequest"
+}
+game:GetService("ReplicatedStorage").rEvents.rebirthEvent:FireServer(unpack(tbl_main))
+end
+end) 
+
+Tab1:TextBox("Collect Orbs [Any - Up to 10000 Can Cause Lag] ","Type", function(bool)  
+for i=1,bool do
+local tbl_main = 
+{
+      "collectOrb", 
+      "Red Orb", 
+      "City"
+}
+game:GetService("ReplicatedStorage").rEvents.orbEvent:FireServer(unpack(tbl_main))
+
+local tbl_main = 
+{
+      "collectOrb", 
+      "Yellow Orb", 
+      "City"
+}
+game:GetService("ReplicatedStorage").rEvents.orbEvent:FireServer(unpack(tbl_main))
+
+local tbl_main = 
+{
+      "collectOrb", 
+      "Gem", 
+      "City"
+}
+game:GetService("ReplicatedStorage").rEvents.orbEvent:FireServer(unpack(tbl_main))
+
+local tbl_main = 
+{
+      "collectOrb", 
+      "Orange Orb", 
+      "City"
+}
+game:GetService("ReplicatedStorage").rEvents.orbEvent:FireServer(unpack(tbl_main))
+
+local tbl_main = 
+{
+      "rebirthRequest"
+}
+game:GetService("ReplicatedStorage").rEvents.rebirthEvent:FireServer(unpack(tbl_main))
+end 
+end)
+
+Tab2:Toggle("Auto Lightning", function(state)
+	getgenv().AutoLightning = state
+	while true do
+		if not getgenv().AutoLightning then return end
+		wait(coolDown)
+		game.ReplicatedStorage.rEvents.openCrystalRemote:InvokeServer('openCrystal', 'Lightning Crystal')
+	end
+end)
+
+Tab2:Toggle('Auto Snow', function(state)
+	getgenv().AutoSnow = state
+	while true do
+		if not getgenv().AutoSnow then return end
+		wait(coolDown)
+		game.ReplicatedStorage.rEvents.openCrystalRemote:InvokeServer('openCrystal', 'Snow Crystal')
+	end
+end)
+
+Tab2:Toggle("Auto Inferno", function(state)
+	getgenv().AutoInferno = state
+	while true do
+		if not getgenv().AutoInferno then return end
+		wait(coolDown)
+		game.ReplicatedStorage.rEvents.openCrystalRemote:InvokeServer('openCrystal', 'Inferno Crystal')
+	end
+end)
+
+Tab2:Toggle("Auto Lava", function(state)
+	getgenv().AutoLava = state
+	while true do
+		if not getgenv().AutoLava then return end
+		wait(coolDown)
+		game.ReplicatedStorage.rEvents.openCrystalRemote:InvokeServer('openCrystal', 'Lava Crystal')
+	end
+end)
+
+Tab2:Toggle("Auto Electro Legends", function(state)
+	getgenv().AutoElectroLegends = state
+	while true do
+		if not getgenv().AutoElectroLegends then return end
+		wait(coolDown)
+		game.ReplicatedStorage.rEvents.openCrystalRemote:InvokeServer('openCrystal', 'Electro Legends Crystal')
+	end
+end)
+
+Tab3:Slider("Speed",1,100,1, function(state)
+	if tonumber(state.Text) ~= nil then
+		player.Character.Humanoid.WalkSpeed = state.Text
+	end
+end)
+
+Tab3:Slider("Jump",1,100,1, function(state)
+	if tonumber(state.Text) ~= nil then
+		player.Character.Humanoid.JumpPower = state.Text
+	end
+end)
+
+Tab3:Slider("Gravity",1,100,1, function(state)
+	if tonumber(state.Text) ~= nil then
+		workspace.Gravity = state.Text
+	end
+end)
+
+Tab3:Button("Reset to Default", function()
+	game.ReplicatedStorage.rEvents.changeSpeedJumpRemote:InvokeServer('changeSpeed', 2)
+	game.ReplicatedStorage.rEvents.changeSpeedJumpRemote:InvokeServer('changeJump', 50)
+	game.ReplicatedStorage.rEvents.changeSpeedJumpRemote:InvokeServer('changeSpeed', math.huge)
+	game.ReplicatedStorage.rEvents.changeSpeedJumpRemote:InvokeServer('changeJump', math.huge)
+	workspace.Gravity = 196.2
+end)
+
+game.ReplicatedStorage.raceInProgress.Changed:Connect(function(state)
+	if not getgenv().AutoRace then return end
+	if state then
+		game.ReplicatedStorage.rEvents.raceEvent:FireServer('joinRace')
+		wait()
+		player.PlayerGui.gameGui.raceJoinLabel.Visible = false
+	end
+end)
+game.ReplicatedStorage.raceStarted.Changed:Connect(function(state)
+	if not getgenv().AutoRace then return end
+	if state then
+		for i, v in pairs(workspace.raceMaps:GetChildren()) do
+			local oldFinishPosition = v.finishPart.CFrame
+			v.finishPart.CFrame = player.Character.HumanoidRootPart.CFrame
+			wait()
+			v.finishPart.CFrame = oldFinishPosition
+		end
+	end
+end)
+Tab3:Toggle("Auto Race", function(state)
+	getgenv().AutoRace = state
+end)
