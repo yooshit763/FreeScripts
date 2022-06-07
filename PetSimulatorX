@@ -1,4 +1,4 @@
-local Blacklib = loadstring(game:HttpGet"https://raw.githubusercontent.com/Brineeee/EastHub/main/BlackTrapfe")()
+local Blacklib = loadstring(game:HttpGet"https://raw.githubusercontent.com/Brineeee/EastHub/main/BlackTrapSuperFEEE")()
 local Win = Blacklib:Window()
 
 -------/-------/-------/-------/-------/-------/-------/-------/-------/-------/-------/-------/-------/-------/-------/
