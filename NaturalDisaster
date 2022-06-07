@@ -1,0 +1,85 @@
+local Blacklib = loadstring(game:HttpGet("https://raw.githubusercontent.com/Brineeee/EastHub/main/BlackTrapSuperFEEE"))() 
+local Win = Blacklib:Window() 
+
+local Tab1Section = Win:Tab("Farm", img)
+local Tab1 = Tab1Section:NewSection("-- Farm --") 
+
+local Tab2Section = Win:Tab("Teleport", img)
+local Tab2 = Tab2Section:NewSection("-- Teleport --") 
+
+local Tab3Section = Win:Tab("Misc", img) 
+local Tab3 = Tab3Section:NewSection("-- Misc --")
+
+Tab1:Button("Enable Auto Farm", function()
+while true do wait()
+game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(-248, 180, 290)
+end
+end)
+
+Tab1:Button("Disable Auto Farm", function()
+    game.Players.LocalPlayer.Character:Destroy()
+game.Players.LocalPlayer.Character.Script:Destroy()
+end) 
+
+Tab2:Button("Teleport to Map", function()
+game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(-125, 48, 10)
+end)
+
+Tab2:Button("Teleport to Lobby", function()
+game.Players.LocalPlayer.Character.Humanoid.RootPart.CFrame = CFrame.new(-245, 180, 325)
+end)
+
+
+Tab3:Button("No Fall Damage", function()
+game.Players.LocalPlayer.Character.FallDamageScript:Destroy()
+end)
+
+Tab3:Button("Get Green Ballon", function()
+    local player = tostring(game.Players.LocalPlayer.Name)
+while true do
+if game.Workspace:FindFirstChild("GreenBalloon") then
+if not game.Workspace[player]:FindFirstChild("GreenBalloon") and not game.Players.LocalPlayer.Backpack:FindFirstChild("GreenBalloon") then
+local workspaceClone = game.Workspace.GreenBalloon:Clone()
+workspaceClone.Parent = game.Workspace[player]
+end
+else
+local balloonCheck = game.Workspace:GetDescendants()
+local balloonClone
+for i, balloon in ipairs(balloonCheck) do
+if (tostring(balloon.Name) == "GreenBalloon") then
+balloonClone = balloon:Clone()
+wait()
+end
+end
+balloonClone.Parent = game.Workspace
+local workspaceClone = game.Workspace.GreenBalloon:Clone()
+workspaceClone.Parent = game.Workspace[player]
+end
+wait()
+end
+end) 
+
+Tab3:Slider("Gravity Set",1,200,200, function(bool)
+    workspace.Gravity = 60
+end)
+
+Tab3:Button("Enable Infinite Jump", function()
+local InfiniteJumpEnabled = true
+game:GetService("UserInputService").JumpRequest:connect(function()
+	if InfiniteJumpEnabled then
+		game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping")
+	end
+end)
+end)
+
+Tab3:Button("Shiftlock [ Mobile ]", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/WQ9NPeDS'))();
+end)
+
+Tab3:Button("Full Brightness", function()
+game:GetService("Lighting").Brightness = 2
+game:GetService("Lighting").ClockTime = 14
+game:GetService("Lighting").FogEnd = 100000
+game:GetService("Lighting").GlobalShadows = false
+game:GetService("Lighting").OutdoorAmbient = Color3.fromRGB(128, 128, 128)
+end) 
